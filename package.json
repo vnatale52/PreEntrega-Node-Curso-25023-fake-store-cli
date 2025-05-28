@@ -1,0 +1,21 @@
+
+  {
+  "name": "fake-store-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to interact with FakeStore API",
+  "main": "index.js",
+  "type": "module", 
+  "scripts": {
+    "start": "node index.js", 
+    "test": "echo \"Error: no test specified by Vincenzo\" && exit 1"
+  },
+  "keywords": [
+    "fakestore",
+    "api",
+    "cli"
+  ],
+  "author": "Vincenzo Natale", 
+  "license": "ISC"
+}
+
+
