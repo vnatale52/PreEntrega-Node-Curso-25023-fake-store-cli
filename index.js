@@ -20,7 +20,7 @@ const API_BASE_URL = 'https://fakestoreapi.com';
         },
  */
 
-import { argv } from "process";  // importing only the argv property from the built-in Node.js module "process"; por ende, no es necesario importarlo; está línea se podría directamente eliminar, porque process ya viene incluido.
+import { argv } from "process";  // importing only the argv property from the built-in Node.js module "process"; por ende, no es necesario importarlo; esta línea se podría directamente eliminar, porque process ya viene incluido.
  
 async function apiRequest(endpoint, method = 'GET', body = null) {
   // Construye la URL completa para la petición
